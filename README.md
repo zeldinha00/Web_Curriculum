@@ -1,4 +1,6 @@
 # 👋 Hello developer!
+- https://zeldinha00.github.io/Web_Curriculum/
+![image](https://user-images.githubusercontent.com/14182590/160204984-c2aecd0d-b134-4e22-b587-e0983063641e.png)
 This is one of the many templates available from W3schools. Check our tutorials for frontend development to learn the basics of HTML and CSS. 🦄
 
 ## 🏗 What's next?

@@ -195,7 +195,6 @@ body * {
       text-transform: uppercase;
   }
 
-  w3-ul li{
-      text-transform: uppercase;
+  span{
       font-weight: bold;
   }
