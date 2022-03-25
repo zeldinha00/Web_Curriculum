@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV template</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>   
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none">CURRICULUM VITAE</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">SOBRE</a>
+        <a href="#resume" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">EXPERIÊNCIA</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTATO</a>
+      </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <img src="/avatar.jpg" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        <!--SCIAL NETWORK BUTTONS-->
+        <div class="links w3-margin-top w3-padding-small">
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.facebook.com/zeldinhagameslol/" target="_blank">
+              <i data-feather="facebook"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.instagram.com/zeldinha00/" target="_blank">
+             <i data-feather="instagram"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://github.com/zeldinha00" target="_blank">
+             <i data-feather="github"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/roger0liveira/" target="_blank">
+             <i data-feather="linkedin"></i>
+          </a>
+        </div>
+        <!--CV DOWNLOAD BUTTON-->
+        <div class="w3-container w3-padding-16">
+          <a href="./CV.pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="CV-RogerOliveira.pdf">
+            <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+            <span class="w3-margin-left download-text">DOWNLOAD CV</span>
+          </a>
+        </div>
+      </section>
+
+      <!--CV CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">CURRICULUM VITAE</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTATO</a>
+          <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">EXPERIÊNCIA</a>
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">SOBRE</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!--HOME SECTION-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <p style="font-style: italic; font-size:x-large;">"A mente é o limite. Quando você enfrenta suas lutas, você as supera."</p>
+            <h1>Roger Oliveira (33)</h2>
+            <h2>Futuro Programador</h3>
+            <p></p>
+          </div>
+
+          <!--ABOUT SECTION-->
+          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">OBJETIVO</h2>
+            <p class="w3-margin-top-2"> 
+                "Colaborar em um ambiente de trabalho onde possa colocar em pratica meus conhecimentos em favor da
+                instituição na qual viso integrar, focando sempre o beneficio e o crescimento da organização e o crescimento
+                profissional."
+            </p>
+          </div>
+
+          <!--RESUME-->
+          <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">EXPERIÊNCIA</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              <!--EMPLOYMENT HISTORY SECTION-->
+            <div class="">
+                <h4>Auxiliar Administrativo - Panificadora Elis Marina</h4>
+                <p>2011 - 2016</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                    <li>
+                    Foco no desenvolvimento e coordenação de atividades como
+                    Atendimento ao cliente, conferência de caixa, contas a receber/pagar,
+                    Cobrança de clientes com atraso de pagamentos, emissão de boletos,
+                    negociação com clientes, baixa de títulos recebidos, Lançamento e
+                    pagamento de notas fiscais, negociações com fornecedores, Emissão
+                    de cheques, Lançamentos e conferência da conciliação bancária.
+                    </li>
+                </ul>
+              </div>
+              <div class="">
+                <h4>Fiscal de Prevenção de Perdas - Supermercado Bernardão</h4>
+                <p>2018 - 2019 </p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                    <li>
+                    Desenvolver e implementar processos e controles para evitar perdas e
+                    caso elas não possam ser evitadas, buscar reduzir seus impactos
+                    negativos ao menor nível possível para os negócios da organização,
+                    emissão de notas fiscais para trocas e devolução e auditoria frente de
+                    caixas.
+                    </li>
+                </ul>
+              </div>
+              <div class="">
+                <h4>Crediário - Damazzine Móveis</h4>
+                <p>2019 - 2020</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>
+                    Atendimento ao cliente, análise de crédito interno e externo, emissão
+                    de notas fiscais de entrada e saída de mercadorias, emissão de
+                    boletos e carnês serviços bancários e assistência a vendas.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!---EDUCATION SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber w3-border-bottom">FORMAÇÃO</h3>
+                <h4>Faculdade Estácio - Sistemas de Informações(Cursando)</h4>
+                <p>• Outubro 2001 - Dezembro 2025 </p>
+                <h4>Faculdade UNIPAM - Gestão Comercial (Incompleto)</h4>
+                <p>• Janeiro 2014 - julho 2016 </p>
+            </div>
+
+            <!--SKILLS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber w3-border-bottom">MINHAS HABILIDADES</h3>
+              <!--SOFT SKILLS-->
+              <h4>Habilidades interpessoais</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>• Tenho excelente habilidade de comunicação e confiança na frente de um público</li>
+                <li>• Tenho talento para investigar e pesquisar diferentes processos para oferecer diferentes melhorias e soluções em benefício da organização </li>
+              </ul>
+              <!--TECHNICAL SKILLS-->
+              <h4>Habilidades técnicas</h4>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>• Assistente administrativo com certificação em informática</li>
+                  <li>• Gestor provisório em planejamentos de projetos</li>
+                  <li>• Informática básica e avançada com conhecimento avançado em office</li>
+                </ul>
+            </div>
+
+            <!--INTERESTS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber w3-border-bottom">MEUS HOBBIES E INTERESSES</h3>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Apaixonado por tecnologia buscando sempre aprender novas tecnologias</li>
+                  <li>Eu gosto de jogar jogos de tabuleiro, e jogos onlines.</li>
+                </ul>
+            </div>
+
+            <!--REFERENCE SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber w3-border-bottom">Referências</h3>
+              <h4>Daniel, Gerente Prevenção de Perdas</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>Supermercado Bernardão</li>
+                <li>(34)996677201</li>
+              </ul>
+              <h4>Gabriel, Gerente administrativo</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>Empresa: Panificadora Elis Marina</li>
+                <li>(34)999130843</li>
+              </ul>
+              <h4>Antonio, Gerente de Loja</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>Empresa: Damazzini Móveis</li>
+                <li>(46)988272319</li>
+              </ul>
+            </div>            
+          </div>
+
+          <!--CONTACT SECTION-->
+          <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">CONTATO</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Nome: Roger Oliveira Silva</p>
+              <p>Endereço: Rua Querino Fonseca 462 - Cerrado / Patos de Minas-MG</p>
+              <p>Telefone: (46) 9 9984-9803</p>
+              <p>E-mail: zeldinhamtx@gmail.com</p>
+            </div>
+          </div>
+
+        <!--FOOTER-->
+        <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+        <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+          <p>© 2022 - Roger Oliveira Silva</p>
+           <p class="w3-small">Curriculum criado pra empregabilidade</p>
+        <!-- End footer -->
+        </footer>
+
+        <!--END OF CV SECTION-->
+      </section>      
+    </section>
+    <script>
+      // Function to toggle mobile navigation
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+  </body>
+</html>
+
